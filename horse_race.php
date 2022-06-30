@@ -1,6 +1,5 @@
 <?php
 
-
 $distance = 20;
 
 $minSpeed = 1;
@@ -65,7 +64,7 @@ while (count($winners) < count($players))
 
 foreach ($winners as $place => $player) {
     $place = $place + 1;
-    echo "#{$place } - $player" . PHP_EOL;
+    echo "#{$place} - $player" . "\n";
 }
 
 if (in_array($yourFavourite, $winners)) {
